@@ -7,6 +7,7 @@
 This project studies traffic congestion as an emergent system-level phenomenon using an agent-based model (ABM). Individual vehicles follow simple local rules (acceleration, braking, randomness), yet collectively give rise to complex global behavior such as stop-and-go waves, congestion phase transitions, and traffic jams.
 The goal is to demonstrate how macroscopic traffic patterns emerge from microscopic interactions, and how uncertainty and stochasticity affect congestion risk.
 
+
 **This project emphasizes:**
 
 • Simulation-based modeling
@@ -17,6 +18,7 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 
 • Interpretability over black-box prediction
 
+
 **Key Questions**
 
 • How does traffic flow change as vehicle density increases?
@@ -26,6 +28,7 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 • How does randomness (driver behavior) affect stability?
 
 • What is the distribution of outcomes under uncertainty?
+
 
 **Model Summary**
 
@@ -44,6 +47,7 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 3. Random braking (stochasticity)
   
 4. Discrete time steps
+
 
 **Experiments Conducted**
 
@@ -64,6 +68,7 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 
 5. Policy shock experiment - Temporary road blockage and recovery behavior
 
+
 **Visual Outputs**
 
 • Time series of average velocity
@@ -76,3 +81,24 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 
 • Monte Carlo outcome distributions
 
+
+**Limitations**
+
+• Single-lane road
+
+• No real-world calibration
+
+• Simplified driver behavior
+
+• No learning or adaptive agents
+
+
+**Future Extensions**
+
+• Multi-lane traffic
+
+• Real traffic data calibration
+
+• Reinforcement learning agents
+
+• Policy optimization experiments
