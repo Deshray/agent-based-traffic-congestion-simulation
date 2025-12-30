@@ -37,13 +37,13 @@ The goal is to demonstrate how macroscopic traffic patterns emerge from microsco
 
 • Dynamics:
 
-  • Acceleration up to a maximum speed
+1. Acceleration up to a maximum speed
   
-  • Collision avoidance
+2. Collision avoidance
   
-  • Random braking (stochasticity)
+3. Random braking (stochasticity)
   
-  • Discrete time steps
+4. Discrete time steps
 
 **Experiments Conducted**
 
